@@ -8,12 +8,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](solution.png)
 
-### Links
-
-- [Solution on GitHub Pages](https://your-solution-url.com)
-
-## My process
-
 ### Built with
 
 - CSS custom properties

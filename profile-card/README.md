@@ -12,10 +12,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![](solution.png)
 
-### Links
-
-- [Solution on GitHub Pages](https://your-solution-url.com)
-
 ### Built with
 
 - CSS custom properties

@@ -14,10 +14,6 @@ Users should be able to:
 
 ![](solution2.gif)
 
-### Links
-
-- [Solution on GitHub Pages](https://your-solution-url.com)
-
 ### Built with
 
 - CSS custom properties
