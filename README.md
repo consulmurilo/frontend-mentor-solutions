@@ -1,4 +1,4 @@
-# Frontend Mentor Chalenges Solutions 🌟
+# Frontend Mentor Chalenges Solutions
  
 ## Order Summarry
 
