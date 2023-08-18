@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](solution2.gif)
+![](solution.gif)
 
 ### Built with
 
