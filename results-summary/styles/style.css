@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --claro: hsl(221, 100%, 96%);
+    --roxinho: hsl(241, 100%, 89%);
+    --dark:hsl(224, 30%, 27%);
+
+    --reaction: hsl(0, 100%, 67%);
+    --memory: hsl(39, 100%, 56%);
+    --verbal: hsl(166, 100%, 37%);
+    --visual: hsl(234, 85%, 45%);
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    background-color: white;
+    height: 700px;
+    width: 350px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.300);
+    transition: width 0.5s, height 0.8s;
+    transition-timing-function: ease;
+}
+
+.resultado {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 320px;
+    width: 350px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resultado h1 {
+    color: var(--roxinho);
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.resultado h2 {
+    color: white;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.resultado p {
+    color: var(--roxinho);
+    font-size: 0.9rem;
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.circle h1 {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.circle p {
+    color: var(--roxinho);
+}
+
+.sumario {
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sumario h3 {
+    color: var(--dark);
+}
+
+.botao {
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.botao p, img {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.botao p {
+    min-width: 95px;
+}
+
+#reaction {
+    color: var(--reaction);
+    background-color: hsla(0, 100%, 67%, 0.100);
+}
+
+#memory {
+    color: var(--memory);
+    background-color: hsla(39, 100%, 56%, 0.100);
+}
+
+#verbal {
+    color: var(--verbal);
+    background-color: hsla(166, 100%, 37%, 0.100);
+}
+
+#visual {
+    color: var(--visual);
+    background-color: hsla(234, 85%, 45%, 0.100);
+}
+
+.rating {
+    color: var(--dark);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rating2 {
+    color: rgba(0, 0, 0, 0.250);
+}
+
+#continue {
+    background-color: var(--dark);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#continue a {
+    text-decoration: none;
+    color: white;
+}
+
+#continue:hover {
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media screen and (min-width: 800px) {
+    .caixa {
+        background-color: white;
+        height: 450px;
+        width: 700px;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.300);
+        display: flex;
+    }
+
+    .resultado {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        height: 450px;
+        width: 350px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sumario {
+        background-color: white;
+        width: 350px;
+        height: 450px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
