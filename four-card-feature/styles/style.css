@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --vermelho: hsl(0, 78%, 62%);
+    --ciano: hsl(180, 62%, 55%);
+    --laranja: hsl(34, 97%, 64%);
+    --azul: hsl(212, 86%, 64%);
+
+    --cinzadark: hsl(234, 12%, 34%);
+    --cinza: hsl(229, 6%, 66%);
+    --cinzaclaro: hsl(0, 0%, 98%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cinzaclaro);
+}
+
+.header {
+    text-align: center;
+    margin: 50px;
+}
+
+.header h1 {
+    color: var(--cinzadark);
+}
+
+#cima {
+    font-weight: 200;
+}
+
+#baixo {
+    font-weight: 600;
+}
+
+.header p {
+    color: var(--cinza);
+    margin-top: 20px;
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.colunas {
+    display: flex;
+    align-items: center;
+}
+
+#coluna1 {
+    width: 32vw;
+    justify-content: flex-end;
+}
+
+#coluna2 {
+    width: 435px;
+    flex-direction: column;
+}
+
+#coluna3 {
+    width: 32vw;
+    justify-content: flex-start;
+}
+
+.caixa {
+    width: 400px;
+    height: 270px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 5px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.250);
+}
+
+.caixa h2 {
+    color: var(--cinzadark);
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.caixa p {
+    color: var(--cinza);
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 70px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+#supervisor {
+    border-color: var(--ciano);
+}
+
+#builder {
+    border-color: var(--vermelho);
+}
+
+#karma {
+    border-color: var(--laranja);
+}
+
+#calculator {
+    border-color: var(--azul);
+}
+
+@media screen and (max-width:1280px) {
+    .caixas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    #coluna1 {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    #coluna3 {
+        width: 100vw;
+        justify-content: center;
+    }
+}
