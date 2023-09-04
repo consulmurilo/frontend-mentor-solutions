@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --laranja: hsl(25, 97%, 53%);
+    --cinzaclaro: hsl(217, 12%, 63%);
+    --cinzamedio: hsl(216, 12%, 54%);
+    --azuldark: hsl(213, 19%, 18%);
+    --azulverydark: hsl(216, 12%, 8%);
+    --botoes: rgba(98, 98, 98, 0.150);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--azulverydark);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    background-color: var(--azuldark);
+    border-radius: 25px;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+
+.secao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.estrela {
+    background-color: var(--botoes);
+    border-radius: 50%;
+    padding: 12.5px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+p {
+    color: var(--cinzamedio);
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    color: var(--cinzaclaro);
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.rank {
+    background-color: var(--botoes);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rank:hover {
+    background-color: var(--cinzamedio);
+    color: white;
+    cursor: pointer;
+}
+
+.botao {
+    background-color: var(--laranja);
+    border: 0;
+    border-radius: 25px;
+    width: 320px;
+    height: 45px;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--laranja);
+    cursor: pointer;
+}
+
+.divpos {
+    display: none;
+}
+
+.imgobg {
+    margin-bottom: 25px;
+}
+
+.posnota {
+    background-color: var(--botoes);
+    color: var(--laranja);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+.posp {
+    text-align: center;
+}

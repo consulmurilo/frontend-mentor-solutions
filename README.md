@@ -1,5 +1,9 @@
 # Frontend Mentor Challenges Solutions
 
+## Interactive Rating
+
+![](/interactive-rating-js/solution.gif)
+
 ## Four-Card Section
 
 ![](/four-card-feature/solution.gif)
