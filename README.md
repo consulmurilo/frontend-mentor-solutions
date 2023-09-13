@@ -10,7 +10,7 @@
 
 ## Four-Card Section
 
-![](/four-card-feature/solution.gif)
+![](/four-card-section/solution.gif)
 
 ## Results Summary
 
@@ -22,7 +22,7 @@
 
 ## Product Preview
 
-![](/product-preview-card/solution.gif)
+![](/product-preview/solution.gif)
 
 ## Profile Card
 
