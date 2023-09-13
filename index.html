@@ -1,25 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor Challenges Solution</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px 50px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 25px;
+        }
+
         a {
             color: black;
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <h1><a href="faq-accordion-card-js/index.html">FAQ Accordion Card</a></h1>
-    <h1><a href="interactive-rating-js/index.html">Interactive Rating</a></h1>
-    <h1><a href="four-card-section/index.html">Four-Card Section</a></h1>
-    <h1><a href="results-summary/index.html">Results Summary</a></h1>
-    <h1><a href="order-summary/index.html">Order Summary</a></h1>
-    <h1><a href="product-preview/index.html">Product Preview</a></h1>
+    <main>
+        <div>
+            <h1><a href="faq-accordion-card-js/index.html" target="_blank">FAQ Accordion Card</a></h1>
+            <a href="faq-accordion-card-js/index.html" target="_blank"><img src="prints/faq-accordion-card.png" alt=""></a>
+        </div>
+
+        <div>
+            <h1><a href="interactive-rating-js/index.html" target="_blank">Interactive Rating</a></h1>
+            <a href="interactive-rating-js/index.html" target="_blank"><img src="prints/interactive-rating.png" alt=""></a>
+        </div>
+
+        <div>
+            <h1><a href="four-card-section/index.html" target="_blank">Four-Card Section</a></h1>
+            <a href="four-card-section/index.html" target="_blank"><img src="prints/four-card-section.png" alt=""></a>
+        </div>
+
+        <div>
+            <h1><a href="results-summary/index.html" target="_blank">Results Summary</a></h1>
+            <a href="results-summary/index.html" target="_blank"><img src="prints/results-summary.png" alt=""></a>
+        </div>
+
+        <div>
+            <h1><a href="order-summary/index.html" target="_blank">Order Summary</a></h1>
+            <a href="order-summary/index.html" target="_blank"><img src="prints/order-summary.png" alt=""></a>
+        </div>
+
+        <div>
+            <h1><a href="product-preview/index.html" target="_blank">Product Preview</a></h1>
+            <a href="product-preview/index.html" target="_blank"><img src="prints/product-preview.png" alt=""></a>
+        </div>
+    </main>
 </body>
 </html>
