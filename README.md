@@ -1,6 +1,6 @@
 # Frontend Mentor Challenges Solutions
 
-## FAQ accordion card
+## FAQ Accordion Card
 
 ![](/faq-accordion-card-js/solution.gif)
 
