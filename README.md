@@ -2,7 +2,7 @@
 
 ## FAQ accordion card
 
-![] (/faq-accordion-card-js/solution.gif)
+![](/faq-accordion-card-js/solution.gif)
 
 ## Interactive Rating
 
