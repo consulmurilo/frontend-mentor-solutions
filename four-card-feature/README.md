@@ -14,8 +14,6 @@ Users should be able to:
 
 ![](solution.gif)
 
-## My process
-
 ### Built with
 
 - CSS custom properties

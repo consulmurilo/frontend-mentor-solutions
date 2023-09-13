@@ -17,8 +17,6 @@ Users should be able to:
 
 ![](solution.gif)
 
-## My process
-
 ### Built with
 
 - JavaScript
