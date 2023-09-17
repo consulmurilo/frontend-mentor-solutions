@@ -121,6 +121,24 @@ hr {
     margin: 15px auto;
 }
 
+@media screen and (max-width: 450px) {
+    .mulher {
+    position: relative;
+    width: 250px;
+    top: -110px;
+    left: 80px;
+    z-index: 2;
+}
+
+.sombra {
+    position: relative;
+    width: 250px;
+    top: -195px;
+    left: 80px;
+    z-index: 1;
+}
+}
+
 @media screen and (min-width: 1200px) {
     .caixa {
         width: 1000px;
