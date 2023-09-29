@@ -5,16 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor Challenges Solution</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
         * {
             margin: 0;
             padding: 0;
         }
 
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Lato', sans-serif;
+            background-color: white;
+        }
+
+        header {
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.300);
+            background-color: white;
+        }
+
+        #git {
+            width: 35px;
         }
 
         main {
+            margin: 50px auto;
+            width: 80%;
+        }
+
+        section {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 25px 50px;
@@ -33,39 +57,51 @@
         img {
             width: 100%;
         }
+
+        footer {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
+            text-align: center;
+            padding: 10px;
+            background-color: white;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <a id="git" href="https://github.com/muriloconsul/" target="_blank">
+            <img src="icons/github.svg" alt="GitHub Icon">
+        </a>
+    </header>
     <main>
-        <div>
-            <h1><a href="faq-accordion-card-js/index.html" target="_blank">FAQ Accordion Card</a></h1>
-            <a href="faq-accordion-card-js/index.html" target="_blank"><img src="prints/faq-accordion-card.png" alt=""></a>
-        </div>
-
-        <div>
-            <h1><a href="interactive-rating-js/index.html" target="_blank">Interactive Rating</a></h1>
-            <a href="interactive-rating-js/index.html" target="_blank"><img src="prints/interactive-rating.png" alt=""></a>
-        </div>
-
-        <div>
-            <h1><a href="four-card-section/index.html" target="_blank">Four-Card Section</a></h1>
-            <a href="four-card-section/index.html" target="_blank"><img src="prints/four-card-section.png" alt=""></a>
-        </div>
-
-        <div>
-            <h1><a href="results-summary/index.html" target="_blank">Results Summary</a></h1>
-            <a href="results-summary/index.html" target="_blank"><img src="prints/results-summary.png" alt=""></a>
-        </div>
-
-        <div>
-            <h1><a href="order-summary/index.html" target="_blank">Order Summary</a></h1>
-            <a href="order-summary/index.html" target="_blank"><img src="prints/order-summary.png" alt=""></a>
-        </div>
-
-        <div>
-            <h1><a href="product-preview/index.html" target="_blank">Product Preview</a></h1>
-            <a href="product-preview/index.html" target="_blank"><img src="prints/product-preview.png" alt=""></a>
-        </div>
+        <section>
+            <div>
+                <h1><a href="faq-accordion-card-js/index.html" target="_blank">FAQ Accordion Card</a></h1>
+                <a href="faq-accordion-card-js/index.html" target="_blank"><img src="prints/faq-accordion-card.png" alt=""></a>
+            </div>
+            <div>
+                <h1><a href="interactive-rating-js/index.html" target="_blank">Interactive Rating</a></h1>
+                <a href="interactive-rating-js/index.html" target="_blank"><img src="prints/interactive-rating.png" alt=""></a>
+            </div>
+            <div>
+                <h1><a href="four-card-section/index.html" target="_blank">Four-Card Section</a></h1>
+                <a href="four-card-section/index.html" target="_blank"><img src="prints/four-card-section.png" alt=""></a>
+            </div>
+            <div>
+                <h1><a href="results-summary/index.html" target="_blank">Results Summary</a></h1>
+                <a href="results-summary/index.html" target="_blank"><img src="prints/results-summary.png" alt=""></a>
+            </div>
+            <div>
+                <h1><a href="order-summary/index.html" target="_blank">Order Summary</a></h1>
+                <a href="order-summary/index.html" target="_blank"><img src="prints/order-summary.png" alt=""></a>
+            </div>
+            <div>
+                <h1><a href="product-preview/index.html" target="_blank">Product Preview</a></h1>
+                <a href="product-preview/index.html" target="_blank"><img src="prints/product-preview.png" alt=""></a>
+            </div>
+        </section>
     </main>
+    <footer>
+        <p>2023, Murilo Consul dos Santos. All rights reserved.</p>
+    </footer>
 </body>
 </html>
