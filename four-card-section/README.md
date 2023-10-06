@@ -12,10 +12,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](solution.gif)
+![](/prints/four-card-section.png)
 
 ### Built with
 
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow

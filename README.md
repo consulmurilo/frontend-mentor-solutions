@@ -1,33 +1,37 @@
 # Frontend Mentor Challenges Solutions
 
+## Article Preview
+
+![](/prints/article-preview.png)
+
 ## FAQ Accordion Card
 
-![](/faq-accordion-card-js/solution.gif)
+![](/prints/faq-accordion-card.png)
 
 ## Interactive Rating
 
-![](/interactive-rating-js/solution.gif)
+![](/prints/interactive-rating.png)
 
 ## Four-Card Section
 
-![](/four-card-section/solution.gif)
+![](/prints/four-card-section.png)
 
 ## Results Summary
 
-![](/results-summary/solution.gif)
+![](/prints/results-summary.png)
  
 ## Order Summarry
 
-![](/order-summary/solution.gif)
+![](/prints/order-summary.png)
 
 ## Product Preview
 
-![](/product-preview/solution.gif)
+![](/prints/product-preview.png)
 
 ## Profile Card
 
-![](/profile-card/solution.png)
+![](/prints/profile-card.png)
 
 ## QR-Code Card
 
-![](/qr-code-card/solution.png)
+![](/prints/qr-code-card.png)

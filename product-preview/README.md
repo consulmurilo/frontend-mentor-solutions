@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](solution.gif)
+![](/prints/product-preview.png)
 
 ### Built with
 

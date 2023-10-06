@@ -14,11 +14,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](solution.gif)
+![](/prints/faq-accordion-card.png)
 
 ### Built with
 
 - JavaScript
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
