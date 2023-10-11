@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/prints/results-summary.png)
+![](/images/prints/results-summary.png)
 
 ### Built with
 

@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/prints/interactive-rating.png)
+![](/images/prints/interactive-rating.png)
 
 ### Built with
 

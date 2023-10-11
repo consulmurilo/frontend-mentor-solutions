@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/prints/four-card-section.png)
+![](/images/prints/four-card-section.png)
 
 ### Built with
 

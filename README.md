@@ -1,37 +1,41 @@
 # Frontend Mentor Challenges Solutions
 
-## Article Preview
+## [Base Apparel Coming Soon](https://muriloconsul.github.io/frontend-mentor-solutions/base-apparel-coming-soon/index.html)
 
-![](/prints/article-preview.png)
+![](images/prints/base-apparel.png)
 
-## FAQ Accordion Card
+## [Article Preview](https://muriloconsul.github.io/frontend-mentor-solutions/article-preview/index.html)
 
-![](/prints/faq-accordion-card.png)
+![](images/prints/article-preview.png)
 
-## Interactive Rating
+## [FAQ Accordion Card](https://muriloconsul.github.io/frontend-mentor-solutions/faq-accordion-card/index.html)
 
-![](/prints/interactive-rating.png)
+![](images/prints/faq-accordion-card.png)
 
-## Four-Card Section
+## [Interactive Rating](https://muriloconsul.github.io/frontend-mentor-solutions/interactive-rating/index.html)
 
-![](/prints/four-card-section.png)
+![](images/prints/interactive-rating.png)
 
-## Results Summary
+## [Four-Card Section](https://muriloconsul.github.io/frontend-mentor-solutions/four-card-section/index.html)
 
-![](/prints/results-summary.png)
+![](images/prints/four-card-section.png)
+
+## [Results Summary](https://muriloconsul.github.io/frontend-mentor-solutions/results-summary/index.html)
+
+![](images/prints/results-summary.png)
  
-## Order Summarry
+## [Order Summarry](https://muriloconsul.github.io/frontend-mentor-solutions/order-summary/index.html)
 
-![](/prints/order-summary.png)
+![](images/prints/order-summary.png)
 
-## Product Preview
+## [Product Preview](https://muriloconsul.github.io/frontend-mentor-solutions/product-preview/index.html)
 
-![](/prints/product-preview.png)
+![](images/prints/product-preview.png)
 
-## Profile Card
+## [Profile Card](https://muriloconsul.github.io/frontend-mentor-solutions/profile-card/index.html)
 
-![](/prints/profile-card.png)
+![](images/prints/profile-card.png)
 
-## QR-Code Card
+## [QR-Code Card](https://muriloconsul.github.io/frontend-mentor-solutions/qr-code-card/index.html)
 
-![](/prints/qr-code-card.png)
+![](images/prints/qr-code-card.png)

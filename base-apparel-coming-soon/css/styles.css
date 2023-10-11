@@ -1,0 +1,319 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --desaturatedred: hsl(0, 36%, 70%);
+    --softred: hsl(0, 93%, 68%);
+    --darkgray: hsl(0, 6%, 24%);
+
+    /* linear 135deg */
+    --gradientbg1: hsl(0, 0%, 100%);
+    --gradientbg2: hsl(0, 100%, 98%);
+
+    --gradientbtn1: hsl(0, 80%, 86%);
+    --gradientbtn2: hsl(0, 74%, 74%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(135deg, var(--gradientbg1), var(--gradientbg2));
+}
+
+.box {
+    width: 375px;
+    height: 100%;
+    background-image: linear-gradient(135deg, var(--gradientbg1), var(--gradientbg2));
+    text-align: center;
+}
+
+.logo {
+    width: 110px;
+    height: 75px;
+    position: relative;
+    right: 100px;
+    top: 5px;
+}
+
+.image {
+    width: 100vw;
+    height: 250px;
+    background-image: url(/base-apparel-coming-soon/images/hero-mobile.jpg);
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.text {
+    margin: 25px;
+}
+
+.were {
+    font-weight: 300;
+    color: var(--desaturatedred);
+    margin-top: 50px;
+}
+
+.coming {
+    font-weight: 400;
+    color: var(--darkgray);
+}
+
+h1 {
+    line-height: 35px;
+}
+
+p {
+    margin-top: 25px;
+    color: var(--desaturatedred);
+    line-height: 24px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+br {
+    display: none;
+}
+
+#email {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsla(0, 36%, 70%, 0.650);
+    outline: none;
+    background-color: transparent;
+    text-indent: 15px;
+    font-size: 14px;
+    color: var(--darkgray);
+}
+
+#email::placeholder {
+    color: hsla(0, 36%, 70%, 0.500);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 60px;
+    height: 42px;
+    bottom: 42px;
+    left: 245px;
+    border-radius: 50px;
+    border-style: none;
+    background-image: linear-gradient(135deg, var(--gradientbtn1), var(--gradientbtn2));
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.300);
+}
+
+#erroricon {
+    position: relative;
+    bottom: 72px;
+    left: 215px;
+    width: 20px;
+    display: none;
+}
+
+#message {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    position: relative;
+    bottom: 55px;
+    right: 49px;
+    color: var(--gradientbtn2);
+}
+
+@media screen and (min-width: 600px) and (max-width: 760px) {
+    .box {
+        width: 100%;
+    }
+
+    .text {
+        margin: 10%;
+    }
+
+    .logo {
+        right: 225px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    #email {
+        width: 80%;
+    }
+
+    button {
+        left: 82%;
+    }
+
+    #erroricon {
+        left: 75%;
+    }
+
+    #message {
+        right: 21%;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .box {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        font-size: 16px;
+        background-color: var(--gradientbg2);
+    }
+
+    .logo {
+        width: 150px;
+        height: 75px;
+        position: relative;
+        right: 0px;
+        left: 10%;
+        top: 50px;
+    }
+
+    .image {
+        width: 40%;
+        height: 100%;
+        background-image: url(/base-apparel-coming-soon/images/hero-desktop.jpg);
+        float: right;
+        background-position: center;
+        left: 0;
+        transform: translate(0);
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 70%;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    h1 {
+        line-height: 65px;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #email {
+        width: 320px;
+        height: 45px;
+        border-radius: 25px;
+    }
+
+    button {
+        width: 80px;
+        height: 47px;
+        bottom: 47px;
+        left: 250px;
+        border-radius: 50px;
+    }
+
+    #message {
+        bottom: 60px;
+        right: 0px;
+        left: 17px;
+    }
+
+    #erroricon {
+        bottom: 80px;
+        left: 220px;
+        width: 20px;
+    }
+}
+
+@media screen and (min-width: 960px) {    
+    h1 {
+        font-size: 64px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #email {
+        width: 420px;
+    }
+
+    button {
+        left: 360px;
+    }
+
+    #erroricon {
+        left: 330px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .box {
+        background-image: url(/base-apparel-coming-soon/images/bg-pattern-desktop.svg);
+        background-color: var(--gradientbg2);
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    br {
+        display: block;
+    }
+}
+
+@media screen and (min-height: 920px) {
+    .text {
+        height: 60%;
+    }
+}
+
+@media screen and (max-height: 360px) {
+    .text {
+        margin: 0 10%;
+        top: 35%;
+    }
+
+    .logo {
+        width: 100px;
+        top: 10px;
+    }
+
+    .were {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+}

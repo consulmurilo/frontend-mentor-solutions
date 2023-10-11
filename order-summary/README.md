@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/prints/order-summary.png)
+![](/images/prints/order-summary.png)
 
 ### Built with
 

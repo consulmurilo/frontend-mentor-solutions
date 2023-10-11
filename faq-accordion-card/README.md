@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/prints/faq-accordion-card.png)
+![](/images/prints/faq-accordion-card.png)
 
 ### Built with
 
