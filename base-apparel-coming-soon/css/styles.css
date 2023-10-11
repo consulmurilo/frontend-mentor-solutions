@@ -47,7 +47,7 @@
 .image {
     width: 100vw;
     height: 250px;
-    background-image: url(images/hero-mobile.jpg);
+    background-image: url(/base-apparel-coming-soon/images/hero-mobile.jpg);
     background-size: cover;
     position: relative;
     left: 50%;
@@ -196,7 +196,7 @@ button:hover {
     .image {
         width: 40%;
         height: 100%;
-        background-image: url(images/hero-desktop.jpg);
+        background-image: url(/base-apparel-coming-soon/images/hero-desktop.jpg);
         float: right;
         background-position: center;
         left: 0;
@@ -275,7 +275,7 @@ button:hover {
 
 @media screen and (min-width: 1200px) {
     .box {
-        background-image: url(images/bg-pattern-desktop.svg);
+        background-image: url(/base-apparel-coming-soon/images/bg-pattern-desktop.svg);
         background-color: var(--gradientbg2);
         background-size: contain;
         background-attachment: fixed;
