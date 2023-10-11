@@ -127,7 +127,7 @@ p {
     height: 35px;
     border-radius: 50%;
     float: right;
-    background-image: url(/article-preview/images/icon-share.svg);
+    background-image: url(../images/icon-share.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;

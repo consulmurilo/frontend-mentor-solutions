@@ -40,7 +40,7 @@ body {
 }
 
 .caixaazul {
-    background-image: url(/qr-code-card/images/image-qr-code.png);
+    background-image: url(../images/image-qr-code.png);
     background-size: cover;
     border-radius: 15px;
     width: 270px;

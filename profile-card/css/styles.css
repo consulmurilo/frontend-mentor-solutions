@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background: url(/profile-card/images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(/profile-card/images/bg-pattern-top.svg) top -500px left -200px no-repeat;
+    background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;
     background-color: var(--cianodark);
 }
 
@@ -37,14 +37,14 @@ body {
 }
 
 .fundo {
-    background-image: url(/profile-card/images/bg-pattern-card.svg);
+    background-image: url(../images/bg-pattern-card.svg);
     height: 35%;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
 
 .perfil {
-    background-image: url(/profile-card/images/image-victor.jpg);
+    background-image: url(../images/image-victor.jpg);
     background-repeat: no-repeat;
     border-radius: 50%;
     width: 96px;
