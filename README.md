@@ -1,5 +1,9 @@
 # Frontend Mentor Challenges Solutions
 
+## [Ping Coming Soon](https://muriloconsul.github.io/frontend-mentor-solutions/ping-coming-soon/index.html)
+
+![](images/prints/ping-coming-soon.png)
+
 ## [Base Apparel Coming Soon](https://muriloconsul.github.io/frontend-mentor-solutions/base-apparel-coming-soon/index.html)
 
 ![](images/prints/base-apparel.png)
