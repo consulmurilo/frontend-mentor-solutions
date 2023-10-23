@@ -19,17 +19,18 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background-image: linear-gradient(var(--gradientroxo), var(--gradientazul));
     font-size: 0.8rem;
+    background-color: var(--gradientazul);
 }
 
 .container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: linear-gradient(var(--gradientroxo), var(--gradientazul));
 }
 
 .caixa {
