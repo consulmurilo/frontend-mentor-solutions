@@ -82,6 +82,11 @@ body {
     margin-top: 150px;
 }
 
+.seta {
+    height: 100%;
+    margin: auto 0;
+}
+
 h1 {
     text-align: center;
     font-size: 2rem;
