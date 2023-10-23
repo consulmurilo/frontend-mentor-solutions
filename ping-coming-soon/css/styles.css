@@ -44,7 +44,7 @@ h1 {
 p {
     font-size: 0.8rem;
     color: var(--azulescuro);
-    margin-top: -5%;
+    margin-top: -3%;
 }
 
 #soon {
@@ -90,17 +90,17 @@ button:hover {
     color: var(--lightred);
     font-style: italic;
     margin: 0;
-    position: relative;
-    bottom: 15%;
+    text-align: center;
 }
 
 #dashboard {
-    width: 80%;
+    width: 20rem;
+    height: auto;
     position: relative;
 }
 
 footer {
-    padding: 1rem;
+    height: 50px;
 }
 
 footer p {
@@ -126,25 +126,27 @@ footer p {
     
     #form {
         flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 1rem;
         width: 35%;
-        justify-content: center;
-        column-gap: 0.5rem;
     }
     
     #email {
         height: 2.5rem;
         width: 65%;
+        order: 1;
     }
     
     button {
         height: 2.8rem;
         width: 30%;
+        order: 2;
     }
 
     #error {
-        bottom: 5%;
+        order: 3;
         font-size: 60%;
-        width: 29.5%;
+        margin-left: 35px;
     }
     
     #dashboard {

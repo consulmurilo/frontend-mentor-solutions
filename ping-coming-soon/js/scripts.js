@@ -5,10 +5,8 @@ form.addEventListener('submit', function(event) {
     event.preventDefault()
 
     if (emailInput.value === '' || !emailValid(emailInput.value)) {
-        form.style.rowGap = '2rem'
         document.querySelector('#error').style.display = 'block'
         emailInput.style.borderColor = 'hsl(354, 100%, 66%)'
-        document.querySelector('#dashboard').style.bottom = '5%'
         return
     }
 
