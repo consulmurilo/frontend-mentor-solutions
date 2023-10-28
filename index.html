@@ -18,7 +18,7 @@
         }
 
         header {
-            height: 50px;
+            height: 3rem;
             width: 100%;
             position: fixed;
             top: 0;
@@ -30,106 +30,161 @@
         }
 
         #git {
-            width: 35px;
+            width: 2.5rem;
         }
 
         main {
-            margin: 50px auto;
-            width: 80%;
-        }
-
-        section {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px 50px;
-        }
-
-        h1 {
-            text-align: center;
-            margin-top: 25px;
-        }
-
-        a {
-            color: black;
-            text-decoration: none;
-        }
-
-        img {
             width: 100%;
+            height: 100svh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icons {
+            width: 3rem;
+            cursor: pointer;
+        }
+
+        .slider {
+            width: 70rem;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .slider a {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+
+            opacity: 0;
+        }
+
+        .slider a.selected {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        .slider img {
+            width: 100%;
+            position: absolute;
         }
 
         footer {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
             text-align: center;
-            padding: 10px;
+            padding: 1rem;
             background-color: white;
-        }
-
-        @media screen and (max-width: 1200px) {
-            section {
-                display: grid;
-                grid-template-columns: 1fr;
-                gap: 25px 50px;
-            }
         }
     </style>
 </head>
 <body>
     <header>
-        <a id="git" href="https://github.com/muriloconsul/" target="_blank">
-            <img src="images/icons/github.svg" alt="GitHub Icon">
+        <a href="https://github.com/muriloconsul/" target="_blank">
+            <img src="images/icons/github.svg" alt="GitHub Icon" id="git">
         </a>
     </header>
     <main>
-        <section>
-            <div>
-                <h1><a href="ping-coming-soon/index.html" target="_blank">Ping Coming Soon</a></h1>
-                <a href="ping-coming-soon/index.html" target="_blank"><img src="images/prints/ping-coming-soon.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="base-apparel-coming-soon/index.html" target="_blank">Base Apparel Coming Soon</a></h1>
-                <a href="base-apparel-coming-soon/index.html" target="_blank"><img src="images/prints/base-apparel.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="article-preview/index.html" target="_blank">Article Preview</a></h1>
-                <a href="article-preview/index.html" target="_blank"><img src="images/prints/article-preview.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="faq-accordion-card/index.html" target="_blank">FAQ Accordion Card</a></h1>
-                <a href="faq-accordion-card/index.html" target="_blank"><img src="images/prints/faq-accordion-card.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="interactive-rating/index.html" target="_blank">Interactive Rating</a></h1>
-                <a href="interactive-rating/index.html" target="_blank"><img src="images/prints/interactive-rating.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="four-card-section/index.html" target="_blank">Four Card Section</a></h1>
-                <a href="four-card-section/index.html" target="_blank"><img src="images/prints/four-card-section.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="results-summary/index.html" target="_blank">Results Summary</a></h1>
-                <a href="results-summary/index.html" target="_blank"><img src="images/prints/results-summary.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="order-summary/index.html" target="_blank">Order Summary</a></h1>
-                <a href="order-summary/index.html" target="_blank"><img src="images/prints/order-summary.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="product-preview/index.html" target="_blank">Product Preview</a></h1>
-                <a href="product-preview/index.html" target="_blank"><img src="images/prints/product-preview.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="profile-card/index.html" target="_blank">Profile Card</a></h1>
-                <a href="profile-card/index.html" target="_blank"><img src="images/prints/profile-card.png" alt=""></a>
-            </div>
-            <div>
-                <h1><a href="qr-code-card/index.html" target="_blank">QR Code Card</a></h1>
-                <a href="qr-code-card/index.html" target="_blank"><img src="images/prints/qr-code-card.png" alt=""></a>
-            </div>
+        <img src="images/icons/arrow-back.svg" alt="Back Arrow" class="icons" id="back-button">
+        <section class="slider">
+            <a href="ping-coming-soon/index.html" target="_blank" class="selected">
+                <img src="images/prints/ping-coming-soon.png" alt="">
+            </a>
+
+            <a href="base-apparel-coming-soon/index.html" target="_blank">
+                <img src="images/prints/base-apparel.png" alt="">
+            </a>
+
+            <a href="article-preview/index.html" target="_blank">
+                <img src="images/prints/article-preview.png" alt="">
+            </a>
+
+            <a href="faq-accordion-card/index.html" target="_blank">
+                <img src="images/prints/faq-accordion-card.png" alt="">
+            </a>
+
+            <a href="interactive-rating/index.html" target="_blank">
+                <img src="images/prints/interactive-rating.png" alt="">
+            </a>
+
+            <a href="four-card-section/index.html" target="_blank">
+                <img src="images/prints/four-card-section.png" alt="">
+            </a>
+
+            <a href="results-summary/index.html" target="_blank">
+                <img src="images/prints/results-summary.png" alt="">
+            </a>
+
+            <a href="order-summary/index.html" target="_blank">
+                <img src="images/prints/order-summary.png" alt="">
+            </a>
+
+            <a href="product-preview/index.html" target="_blank">
+                <img src="images/prints/product-preview.png" alt="">
+            </a>
+
+            <a href="profile-card/index.html" target="_blank">
+                <img src="images/prints/profile-card.png" alt="">
+            </a>
+
+            <a href="qr-code-card/index.html" target="_blank">
+                <img src="images/prints/qr-code-card.png" alt="">
+            </a>
         </section>
+        <img src="images/icons/arrow-forward.svg" alt="Next Arrow" class="icons" id="next-button">
     </main>
     <footer>
         <p>2023, Murilo Consul dos Santos. All rights reserved.</p>
     </footer>
+
+    <script>
+        const backButton = document.querySelector('#back-button')
+        const nextButton = document.querySelector('#next-button')
+        const slider = document.querySelectorAll('.slider a')
+
+        let currentIndex = 0
+
+        function removeClass() {
+            slider.forEach(function (item) {
+                item.classList.remove('selected')
+            })
+        }
+
+        function addClass() {
+            slider[currentIndex].classList.add('selected')
+        }
+
+        function backSlider() {
+            removeClass()
+
+            if (currentIndex === 0) {
+                currentIndex = slider.length - 1
+            } else {
+                currentIndex--
+            }
+
+            addClass()
+        }
+
+        function nextSlider() {
+            removeClass()
+    
+            if (currentIndex === slider.length - 1) {
+                currentIndex = 0
+            } else {
+                currentIndex++
+            }
+
+            addClass()
+        }
+
+        backButton.addEventListener('click', backSlider)
+        nextButton.addEventListener('click', nextSlider)
+
+        setInterval(nextSlider, 6000)
+    </script>
 </body>
 </html>
